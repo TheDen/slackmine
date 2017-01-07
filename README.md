@@ -35,6 +35,8 @@ Flags:
 ### Example
 To have slackmine check every 5 minutes for a new redmine issue for redmine user `3` on the slack channel #sys-ops, simply run:
 
-```./slackmine --rmkey=xxxxxxxxxx --rmid=3 --slack-webhook=https://hooks.slack.com/services/xxxxxx/xxxxxx/xxxxxx --channel=#sys-ops --interval=5```
+```
+./slackmine --rmkey=xxxxxxxxxx --rmid=3 --slack-webhook=https://hooks.slack.com/services/xxxxxx/xxxxxx/xxxxxx --channel=#sys-ops --interval=5
+```
 
 If a new issue is found, slackmine will post it on the `#sys-ops` channel. An issue can also be posted as a direct message on Slack by passing `@username` in the `--channel` arg.
