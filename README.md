@@ -28,7 +28,7 @@ Flags:
   --channel="#test_bots"         Which slack channel to post to. Also accepts DMs, with @username
   --url=URL                      redmine URL, e.g., https://redmine.yourcompany.com.au
   --interval=5                   interval check time for last ticket/issue (in minutes)
-  --botname="redminebot"         Name of the bot whne it posts on Slack
+  --botname="redminebot"         Name of the bot when it posts on Slack
   --emoji=":monkey:"             Which emoji to set for the bot on Slack
   --version                      Show application version.
 ```

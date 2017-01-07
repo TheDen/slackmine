@@ -16,7 +16,7 @@ var (
 	channel      = kingpin.Flag("channel", "Which slack channel to post to. Also accepts DMs, with @username").Default("#test_bots").String()
 	url          = kingpin.Flag("url", "redmine URL, e.g., https://redmine.yourcompany.com.au").String()
 	interval     = kingpin.Flag("interval", "interval check time for last ticket/issue (in minutes)").Default("5").Int()
-	botname      = kingpin.Flag("botname", "Name of the bot whne it posts on Slack").Default("redminebot").String()
+	botname      = kingpin.Flag("botname", "Name of the bot when it posts on Slack").Default("redminebot").String()
 	emoji        = kingpin.Flag("emoji", "Which emoji to set for the bot on Slack").Default(":monkey:").String()
 )
 
